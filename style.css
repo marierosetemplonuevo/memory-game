@@ -1,0 +1,139 @@
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  margin: 75px;
+}
+
+/* header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+}
+
+.restart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  width: 100px;
+  height: 25px;
+  background-color: #fda115;
+  color: #fcfcfc;
+  margin: 0 20px;
+}
+
+.new-game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+  width: 120px;
+  height: 25px;
+  background-color: #dfe6ec;
+  color: #31485a;
+}
+
+/* tiles */
+.memory-tiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+  margin: 100px;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1 0 20%;
+  height: 80px;
+  margin: 10px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #31485a;
+  background-color: #31485a;
+  border-radius: 40px;
+}
+
+.open {
+  color: #fcfcfc;
+  background-color: #bbceda;
+}
+/* counter */
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container div {
+  background-color: #dfe6ec;
+  margin: 0 10px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.time-container h3 {
+  color: #7f98a2;
+  font-size: 13px;
+  margin: 0;
+}
+
+.time-container p {
+  color: #31485a;
+  font-size: 24px;
+  margin: 0;
+}
+
+.moves-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.moves-container h3 {
+  color: #7f98a2;
+  font-size: 13px;
+  margin: 0;
+}
+
+.moves-container p {
+  color: #31485a;
+  font-size: 24px;
+  margin: 0;
+}
